@@ -1,0 +1,35 @@
+body {margin: 0;}
+.clearfix {clear: both;}
+
+#header {
+    background-color: #eee;
+}
+#header ul.menu,
+#header ul.menu li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+#header ul.menu li {
+    padding: 2px 5px;
+}
+
+#header ul.menu.gray,
+#header ul.menu.gray li {
+    background-color: #ddd;
+}
+#header ul.menu.green,
+#header ul.menu.green li {
+    background-color: #9f9;
+}
+#header ul.menu.green li a {
+    color: #000;
+}
+#header ul.menu.red,
+#header ul.menu.red li {
+    background-color: #f66;
+}
+#header ul.menu.red li a {
+    color: #fff;
+}

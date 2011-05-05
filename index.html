@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Slide Menu</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.slide_menu.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('#header .menu').slide_menu();
+        });
+    </script>
+</head>
+<body>
+
+<div id="header">
+    <ul class="menu gray">
+        <li><a href="#">Yamaha</a></li>
+        <li><a href="#">KTM</a></li>
+        <li><a href="#">Ducati</a></li>
+        <li><a href="#">Kawasaki</a></li>
+    </ul>
+    <ul class="menu green">
+        <li><a href="#">Audi</a></li>
+        <li><a href="#">Honda</a></li>
+        <li><a href="#">Suziki</a></li>
+        <li><a href="#">BMW</a></li>
+        <li><a href="#">Mercedes&ndash;Benz</a></li>
+    </ul>
+    <ul class="menu red">
+        <li><a href="#">Merida</a></li>
+        <li><a href="#">TREK</a></li>
+        <li><a href="#">Kellys</a></li>
+        <li><a href="#">Comanche</a></li>
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+</body>
+</html>
